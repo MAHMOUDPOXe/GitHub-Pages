@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعديل امتحان - المنصة التعليمية</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/exams.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>تعديل امتحان</h1>
+        <form id="editExamForm">
+            <label>اختر الامتحان لتعديله</label>
+            <select id="examSelect">
+                <option value="">-- اختر امتحان --</option>
+                <!-- سيتم ملء الخيارات بالـ JS -->
+            </select>
+
+            <div id="questionsContainer">
+                <!-- الأسئلة ستظهر هنا لتعديلها -->
+            </div>
+
+            <button type="submit">حفظ التعديلات</button>
+        </form>
+    </div>
+    <script src="../js/exams/editExam.js"></script>
+</body>
+
+</html>

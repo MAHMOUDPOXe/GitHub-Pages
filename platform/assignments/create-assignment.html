@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء واجب - المنصة التعليمية</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/assignments.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>إنشاء واجب جديد</h1>
+        <form id="createAssignmentForm">
+            <label>عنوان الواجب</label>
+            <input type="text" id="assignmentTitle" placeholder="أدخل عنوان الواجب" required>
+
+            <label>وصف الواجب</label>
+            <textarea id="assignmentDescription" placeholder="أدخل وصف الواجب"></textarea>
+
+            <label>رفع الملفات / الصور</label>
+            <input type="file" id="assignmentFiles" multiple>
+
+            <button type="submit">حفظ الواجب</button>
+        </form>
+    </div>
+    <script src="../js/assignments/createAssignment.js"></script>
+</body>
+
+</html>

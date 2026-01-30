@@ -1,0 +1,113 @@
+/* Reset بعض الخصائص الأساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1c1c1c, #2c2c2c);
+    color: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* روابط */
+a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* الحاويات */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* الصندوق العام للفورم */
+.form-box {
+    background: #262626;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* العناوين */
+.form-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4fc3f7;
+}
+
+/* الفورم */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #1f1f1f;
+    color: #f5f5f5;
+    font-size: 15px;
+}
+
+form input::placeholder {
+    color: #888;
+}
+
+/* زر التسجيل */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4fc3f7;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #1c1c1c;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #38b0e3;
+}
+
+/* Checkbox */
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    margin-left: 10px;
+}
+
+.checkbox label {
+    font-size: 14px;
+}
+
+/* Links */
+.login-link,
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}

@@ -1,0 +1,36 @@
+/* إضافات خاصة بالصفحات التعليمية */
+.form-box select {
+    background: #1f1f1f;
+    color: #f5f5f5;
+}
+
+/* ألوان اختيارات select عند التحديد */
+.form-box select option {
+    background: #262626;
+    color: #f5f5f5;
+}
+
+/* رسائل التنبيه */
+.alert {
+    background: #ff5252;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* إضافة تأثير Focus على الفورم */
+form input:focus,
+form select:focus {
+    outline: 2px solid #4fc3f7;
+    background: #292929;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .form-box {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,53 @@
+platform/
+│
+├── index.html                  # الصفحة الرئيسية
+├── login.html                  # تسجيل دخول (طالب / ولي أمر / أدمن)
+├── register-student.html       # تسجيل طالب جديد
+├── settings.html               # إعدادات الطالب (تغيير كلمة المرور أول مرة)
+│
+├── dashboard/
+│   ├── student.html            # لوحة الطالب
+│   ├── parent.html             # لوحة ولي الأمر
+│   └── admin.html              # لوحة الأدمن
+│
+├── exams/                      # كل ما يخص الامتحانات
+│   ├── create-exam.html        # الأدمن: إنشاء امتحان (عدد الأسئلة + الأسئلة)
+│   ├── edit-exam.html          # تعديل امتحان
+│   ├── take-exam.html          # الطالب: حل الامتحان
+│   ├── exam-result.html        # نتيجة الامتحان
+│
+├── assignments/                # الواجبات
+│   ├── create-assignment.html  # الأدمن: إنشاء واجب
+│   ├── submit-assignment.html  # الطالب: تسليم واجب
+│   └── review-assignment.html  # الأدمن: تصحيح
+│
+├── css/
+│   ├── main.css                # ستايل عام (ألوان – خطوط)
+│   ├── auth.css                # تسجيل / دخول / تسجيل طالب
+│   ├── dashboard.css           # لوحات التحكم
+│   ├── exams.css               # الامتحانات
+│   └── assignments.css         # الواجبات
+│
+├── js/
+│   ├── firebase.js             # إعداد Firebase
+│   ├── auth.js                 # تسجيل الدخول + التحويل حسب الدور
+│   ├── register.js             # تسجيل الطالب
+│   ├── guards.js               # حماية الصفحات حسب الدور
+│   ├── utils.js                # دوال مساعدة
+│   │
+│   ├── exams/
+│   │   ├── createExam.js       # إنشاء امتحان
+│   │   ├── takeExam.js         # حل الامتحان
+│   │   └── examResult.js       # حساب النتيجة
+│   │
+│   └── assignments/
+│       ├── createAssignment.js
+│       └── submitAssignment.js
+│
+├── assets/
+│   ├── images/
+│   │   ├── exams/              # صور الأسئلة
+│   │   └── profiles/
+│   └── icons/
+│
+└── README.md
